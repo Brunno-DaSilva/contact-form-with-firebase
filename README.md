@@ -10,4 +10,4 @@ Fully Funtional Contact form utilizing FIREBASE to store emails.
         4 - Google FireBase
 
 
-##### Demo: https://dasilvabrunotexas.github.io/contact-form-with-firebase/
+##### Demo: https://dasilvabrunotexas.github.io/contact-form-with-firebase/contact.html
