@@ -23,57 +23,58 @@
                         src="https://res.cloudinary.com/duprwuo4j/image/upload/c_scale,w_155/v1574831158/imgs_starwars/imgs/BLOGO_k36v5y.png"
                         alt="logo" />
                 </div>
-                <div><a href="index.html">Home</a></div>
+                <div><a href="#">Home</a></div>
                 <div><a href="about.html">About</a></div>
                 <div><a href="contact.html">Contact</a></div>
             </div>
         </div>
 
     </header>
-
     <section id="contactme">
         <div class="container">
-        <br>
-        <br>
-            <h2 class="titleContactMe">Contact 
+            <h2 class="titleContactMe">Contact
                 <span style="color:#F6D55C; text-decoration:underline;">
                     <span style="color:#173f5f;">Bruno</span>
                 </span>
             </h2>
-
-            <div class="wrapper animated bounceInLeft">
+            <div class="wrapper ">
                 <div class="greet">
-                    <h3><span>Bruno DaSilva</span> Web Developer</h3>
+                    <h3 class="animate-box fadeInUp animated-fast">
+                        <span>Bruno DaSilva</span> Web Developer
+                    </h3>
 
-                    <p id="hide-text-small-screen" style="color:#FFCC5C;">
-                        I am excited to hear from you <i class="fas fa-mug-hot"></i>
+                    <p class="animate-box fadeInUp animated-fast" id="hide-text-small-screen" style="color:#FFCC5C;">
+                        I am excited to hear from you <i class="fas fa-mug-hot "></i>
                     </p>
                 </div>
 
                 <div class="contact">
-
-                    <form method="" action="">
+                    <div class="alert">Your Message has been sent</div>
+                    <form id="contactForm">
                         <p>
-
-                            <input name="name" type="text" placeholder="Your Full Name" />
+                            <input name="name" type="text" placeholder="Your Full Name" id="form-name" required="">
                             <span class="error"><i class="fas fa-circle"></i> </span>
                         </p>
-                        <br />
+                        <br>
                         <p>
-                            <input name="email" type="text" placeholder="Your E-mail Address" />
+                            <input name="email" type="email" placeholder="Your E-mail Address" id="form-email"
+                                required="">
                             <span class="error"><i class="fas fa-circle"></i> </span>
                         </p>
-                        <br />
-                        <p><input name="subject" type="text" placeholder="Subject" /></p>
+                        <br>
                         <p>
-                            <textarea name="message" placeholder="Message" rows="4"></textarea>
+                            <input name="subject" type="text" placeholder="Subject" id="form-subject">
                         </p>
-                        <br />
-                        <p id="btn-form"><input type="submit" name="submit" /></p>
+                        <p>
+                            <textarea name="message" placeholder="Message" rows="4" id="form-message"
+                                required=""></textarea>
+                            <span class="error"><i class="fas fa-circle"></i> </span>
+                        </p>
+                        <br>
+                        <p id="btn-form"><input type="submit" name="submit"></p>
 
-                        <br />
+                        <br>
                     </form>
-
                 </div>
             </div>
         </div>
@@ -100,6 +101,8 @@
         </div>
         <br>
     </footer>
+    <!--FireBase Script-->
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
     <script src="contact.js"></script>
 </body>
 

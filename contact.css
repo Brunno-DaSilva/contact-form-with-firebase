@@ -19,6 +19,8 @@
   --light-font-color-title: #c9dded;
   --gray-neutral-color: #63717d;
   --light-warm-color: #fafbfc; 
+  --alert-success: #118506d3; 
+  --error-pointers: #f71212d5;
 }
 
 *{
@@ -98,8 +100,7 @@
      transform: rotate(2deg) !important;
      margin-top: 0px;
    }
- 
-  
+   
  
  #contactme {
    padding: 0;
@@ -179,8 +180,17 @@
     box-shadow:         inset 0 0 10px #909090;
  
  }
+
+ .alert {
+    text-align: center;
+    padding: 10px;
+    background: #118506d3;
+    color: #fff;
+    display: none;
+  }
+  
  .error i {
-   color: rgba(255, 0, 0, 0.699);
+   color: #f71212d5;
    font-size: 6px;
  }
  

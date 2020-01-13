@@ -31,7 +31,7 @@ let config = {
     //Calling Save Message Function
     saveMessages(name, email, subject, message);
   
-    // Display Alert
+    // Display Alert Message
     document.querySelector(".alert").style.display = "block";
   
     //hide alert after 4 seconds
