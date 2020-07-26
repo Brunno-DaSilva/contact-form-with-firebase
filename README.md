@@ -14,4 +14,4 @@ Fully Funtional Contact form utilizing FIREBASE to store emails.
 #100DaysOfCode Challange
 ```
 
-##### Demo: https://dasilvabrunotexas.github.io/contact-form-with-firebase/contact.html
+##### Demo: https://brunno-dasilva.github.io/contact-form-with-firebase/contact.html
